@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span 
+{
+color:orange;
+}
+
+
+
+
+/*.............hero section starts...........*/
+
+
+#hero {
+  width: 100%;
+  background-image: url('1.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+ }
+
+
+ .header
+ {
+
+  position: fixed;
+   width: 1000px;
+  height: auto;
+  background-color:rgba(5, 5, 5, 0.623);
+  transition: .3s ease background-color;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+
+.header .logo
+  {
+    display: flex;
+    flex: 1;
+    
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .header .logo h1
+  {
+    color: white;
+    text-shadow: 2px 2px rgb(27, 26, 26);
+  }
+
+
+  .header .navigation
+   {
+    display: flex;
+    flex: 1;
+   
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+  
+   }
+
+
+   .header .navigation ul
+   {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  }
+
+  .header .navigation ul a
+  {
+   color: white;
+   font-size: 1.2rem;
+   font-weight: 800;
+   text-shadow: 1px 1px rgb(27, 26, 26);
+   text-decoration: none;
+ }
+
+
+ .header .navigation ul a:hover
+ {
+  color: orange;
+  cursor: pointer;
+  
+}
+
+
+.intro {
+  
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 0;
+ 
+ }
+
+ .intro h2 {
+  font-size: 80px;
+  color: white;
+  margin-left: 100px;
+  letter-spacing: 10px;
+  font-family: 'Gochi Hand', cursive;
+  color: orange;
+  text-shadow: 2px 2px rgb(27, 26, 26);
+}
+
+.intro a {
+  color: black;
+ font-size: 15px;
+background-color: white;
+ margin-left: 100px;
+ border: 3px solid orange;
+ padding: 10px;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+.intro a:hover {
+  background-color: orange;
+}
+
+/*...........hero section ends...............*/
+
+
+/*benfits section starts*/
+
+
+.benefits-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  max-width: 100%;
+ 
+  padding: 50px 0;
+  background-color: black;
+ 
+}
+
+.section-title {
+  margin: 30px 0;
+  color: white;
+}
+
+.section-title h1 {
+  font-size: 35px;
+}
+
+.section-benefits {
+  width: 80%;
+  
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+ }
+
+
+ .service-item {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  margin: 10px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.service-item h2 {
+  font-family: 'Gochi Hand', cursive;
+}
+
+
+/*benfits section ends*/
+
+
+/*routine section starts*/
+.routine-box {
+  max-width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:orange;
+  padding: 80px 0;
+}
+
+.routine-box h1 {
+  font-size: 50px;
+  font-family: 'Gochi Hand', cursive;
+
+}
+
+
+.routine-box p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  height: 320px;
+  background-color: rgb(39, 39, 37);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  margin: 20px 0;
+  box-shadow: 10px 5px 5px rgb(61, 61, 61);
+}
+
+.container .text {
+  flex:1;
+ 
+}
+
+.container .text h1 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 50px;
+ }
+
+ .container .text p{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+ }
+ 
+
+.container .text h1, p{
+ margin: 10px;
+ 
+}
+
+
+.container .video {
+  flex:1;
+  width: 100%;
+  height: 100%;
+}
+
+
+.container .video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/*................ROUTINE SECTION ENDS.....*/
+
+/*.........ABOUT SECTION STARTS.........*/
+
+.about-section {
+  width: 100%;
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+
+.about-pic {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.about-pic h4 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 25px;
+ 
+}
+
+.about-pic img{
+  border: 5px solid rgb(212, 209, 205);
+  border-radius: 20%;
+  box-shadow: 10px 5px 5px rgb(212, 209, 205);
+}
+
+.about-desc {
+  flex: 1;
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  padding: 30px;
+}
+
+.about-desc h1 {
+  font-size: 50px;
+  color: orange;
+  font-weight: bold;
+}
+
+
+
+.about-desc p {
+font-size: 20px;
+margin-top: 20px;
+background-color: orange;
+padding: 20px;
+border-radius: 20px;
+font-weight: bold;
+}
+
+/*.........ABOUT SECTION ENDS..........*/
+
+/*................contact sectin starts......*/
+.contact-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.contact-container .text-c {
+  text-align: center;
+}
+
+.contact-container .text-c h1{
+  font-size: 50px;
+  font-family: 'Gochi Hand', cursive;
+  margin-bottom: 40px;
+}
+
+.contact-container .text-c h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
+.contact-container .text-c p{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+
+.contact-container .social-links {
+  width: 80%;
+  background-color: rgb(44, 43, 43);
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 40px;
+}
+
+.contact-container .social-links h3 {
+  font-weight: bold;
+}
+
+.contact-container .social-links p {
+  font-size: 30px;
+  
+}
+
+
+
+
+.contact-container .social-links .first {
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.contact-container .social-links .second {
+  width: 100%;
+  background-color: rgb(122, 121, 121);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.contact-container .social-links .second:hover {
+  background-color: black;
+}
+
+.fb {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid white;
+ 
+}
+
+.yt {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid white;
+ 
+}
+
+.em {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid white;
+
+}
+
+
+.pn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+/*..........contact section ends...........*/
+
+@media (max-width: 1020px) {
+  .about-section {
+    width: 100%;
+   flex-direction: column;
+   
+  }
+  
+}
