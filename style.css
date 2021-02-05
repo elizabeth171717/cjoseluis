@@ -435,11 +435,32 @@ font-weight: bold;
 }
 /*..........contact section ends...........*/
 
+
 @media (max-width: 1020px) {
+  .section-benefits {
+    /* width: 80%; */
+    width: 100%;
+  }
+
   .about-section {
     width: 100%;
    flex-direction: column;
    
   }
+
+  .about-pic img {
+    margin-top: 50px;
+    
+}
+  
+}
+
+
+@media (max-width: 620px) {
+  
+  .routine-box p {
+  
+    text-align: center;
+}
   
 }
