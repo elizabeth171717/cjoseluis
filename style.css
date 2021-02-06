@@ -97,6 +97,20 @@ color:orange;
   
 }
 
+/*........MENU TOGGLE.........*/
+
+.menuToggle 
+{
+        color: white;
+        font-size: 30px;
+        line-height: 80px;
+        float: right;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+
+/*......MENU TOGGLE.........*/
 
 .intro {
   
@@ -437,6 +451,17 @@ font-weight: bold;
 
 
 @media (max-width: 1020px) {
+    /*.................MENU TOGGLE..............*/
+    .header .navigation
+  {
+   display: none;
+  } 
+
+  .menuToggle {
+    display: block;
+}
+
+  /*................MENU TOGGLE...............*/  
   .section-benefits {
     /* width: 80%; */
     width: 100%;
