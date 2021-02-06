@@ -612,4 +612,16 @@ font-weight: bold;
   }
 
   /*...INTRO.....*/
+     
+     
+    /*routine-box*/
+  .routine-box p {
+   
+    font-size: 20px;
+   
+    margin-top: 10px;
+    padding: 0 10px;
+}
+  /*routine-box*/  
+     
 }
