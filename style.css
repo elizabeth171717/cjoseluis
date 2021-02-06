@@ -102,10 +102,10 @@ color:orange;
 .menuToggle 
 {
         color: white;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 80px;
         float: right;
-        margin-right: 40px;
+        margin-right: 20px;
         cursor: pointer;
         display: none;
     }
