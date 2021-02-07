@@ -368,6 +368,11 @@ font-weight: bold;
   
 }
 
+.contact-container .text-c p a{
+  text-decoration: none;
+  color: white;
+}
+
 
 .contact-container .social-links {
   width: 80%;
