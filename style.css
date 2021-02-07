@@ -624,4 +624,55 @@ font-weight: bold;
 }
   /*routine-box*/  
      
+      /*about section*/
+
+  .about-desc p {
+    
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+  /*about section*/
+
+  .contact-container .text-c {
+  
+    padding: 5px;
+}
+
+.contact-container .text-c h1 {
+  
+  margin-bottom: 20px;
+}
+
+.contact-container .text-c h2 {
+  
+  margin-bottom: 5px;
+}
+
+.contact-container .text-c p {
+ 
+  margin: 10px;
+}
+
+
+
+.contact-container .social-links {
+  
+  flex-direction: column;
+  
+}
+
+.contact-container .social-links .second {
+ 
+  padding: 10px 0;
+ 
+}
+
+.container .text h1, p {
+
+  margin: 10px 0;
+
+}
+     
 }
