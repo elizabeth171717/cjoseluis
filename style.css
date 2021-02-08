@@ -368,10 +368,7 @@ font-weight: bold;
   
 }
 
-.contact-container .text-c p a{
-  text-decoration: none;
-  color: white;
-}
+
 
 
 .contact-container .social-links {
@@ -392,7 +389,10 @@ font-weight: bold;
   
 }
 
-
+.contact-container .social-links a{
+  text-decoration: none;
+  color: white;
+}
 
 
 .contact-container .social-links .first {
