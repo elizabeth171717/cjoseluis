@@ -111,20 +111,21 @@ color:orange;
     }
 
 /*......MENU TOGGLE.........*/
-
 .intro {
   
-  width: 50%;
-  position: absolute;
-  top: 30%;
-  left: 0;
- 
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100vh;
+  align-items:flex-start;
+  justify-content: center;
  }
 
  .intro h2 {
   font-size: 80px;
-  color: white;
-  margin-left: 100px;
+  
+  
   letter-spacing: 10px;
   font-family: 'Gochi Hand', cursive;
   color: orange;
@@ -135,9 +136,9 @@ color:orange;
   color: black;
  font-size: 15px;
 background-color: white;
- margin-left: 100px;
+padding: 10px;
  border: 3px solid orange;
- padding: 10px;
+ 
  text-decoration: none;
  font-weight: bold;
 }
@@ -145,6 +146,7 @@ background-color: white;
 .intro a:hover {
   background-color: orange;
 }
+
 
 /*...........hero section ends...............*/
 
@@ -459,11 +461,18 @@ font-weight: bold;
     
     
     /*.................MENU TOGGLE..............*/
-    .header {
+   
+    #hero {
     width: 100%;
   }
-    
-    .header .navigation
+
+  .header
+  {
+   width: 100%;
+  } 
+
+
+  .header .navigation
   {
    display: none;
   } 
@@ -472,7 +481,86 @@ font-weight: bold;
     display: block;
 }
 
+
+.menuToggle.active {
+  display: block;
+}
+
+.header .navigation.active
+  {
+   width: 100%;
+   height: calc(100% - 80px);
+   background-color:black;
+   position:fixed;
+   top: 80px;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: orange;
+  } 
+
+  .header .navigation ul
+  {
+   width: 100%;
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+   
+ }
+
+ .header .navigation ul li
+  {
+  margin: 20px 0;
+ }
+
+ .header .navigation ul a
+ {
+  
+  color: black;
+  font-size: 2rem;
+   padding: 20px 0;
+}
+  
+
+.header .navigation ul a:hover
+ {
+  
+  color: white;
+  
+}
   /*................MENU TOGGLE...............*/  
+    /*intro*/
+
+  .intro {
+   
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.intro h2 {
+ 
+  font-size: 60px;
+  
+}
+
+.intro a {
+ 
+  font-size: 12px;
+  padding: 8px;
+ 
+}
+
+/*intro*/
+    
+    
+    
+    
+    
   .section-benefits {
     /* width: 80%; */
     width: 100%;
@@ -493,27 +581,36 @@ font-weight: bold;
 
 
 @media (max-width: 620px) {
+   #hero {
+    width: 100%;
+  }
 
-  .intro {
+
+  .header
+  {
+   width: 100%;
+  } 
+
+   /*intro*/
+
+   .intro {
    
-    top: 50%;
-    
+    width: 100%;
+   
 }
 
 .intro h2 {
-  margin-left: 70px;
+ 
   font-size: 50px;
   
 }
 
-.intro a {
-  
-  font-size: 12px;
-  margin-left: 20px;
-  padding: 5px;
- 
+.intro p {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-
+/*intro*/
+ 
   .routine-box .reverse {
     flex-direction: column-reverse;
   }
@@ -592,32 +689,23 @@ font-weight: bold;
   /*HEADER*/
 
 
+ 
   /*....INTRO....*/
   .intro {
   
-    top: 35%;
-   
+  width: 100%;
    
    }
   
-   .intro h2 {
-    
-    margin-left: 40px;
    
-  }
   
   .intro p {
     margin-top: 10px;
   }
 
-  .intro a {
-   
-   margin-left: 20px;
   
-  }
 
   /*...INTRO.....*/
-     
      
     /*routine-box*/
   .routine-box p {
