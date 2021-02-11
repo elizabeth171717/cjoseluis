@@ -26,11 +26,11 @@
          
         <div class="navigation">
           <ul>
-            <li><a href="#hero">HOME</a></li>
-            <li><a href="#benefits">BENEFITS</a></li>
-            <li><a href="#routine">ROUTINES</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#hero" class="active" onclick="toggleMenu();">HOME</a></li>
+            <li><a href="#benefits" onclick="toggleMenu();">BENEFITS</a></li>
+            <li><a href="#routine" onclick="toggleMenu();">ROUTINES</a></li>
+            <li><a href="#about" onclick="toggleMenu();">ABOUT</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">CONTACT</a></li>
           </ul>
         </div>
 
@@ -342,8 +342,16 @@
 </div>
 
 <!--contact section ends-->
+    
+<script type="text/javascript">
   
-    <script src="app.js"></script>
-        
+  function toggleMenu() {
+      const menuToggle = document.querySelector('.menuToggle');
+      const navigation = document.querySelector('.navigation');
+      menuToggle.classList.toggle('active');
+      navigation.classList.toggle('active');
+    
+  }
+  </script>
 </body>
 </html>
