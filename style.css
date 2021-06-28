@@ -649,6 +649,15 @@ font-weight: bold;
   
 }
 
+@media (max-width: 1200px) {
+  .hidden {
+    flex-direction: column;
+  }
+  .hidden iframe {
+    margin: 20px 0;
+  }
+}
+
 
 @media (max-width: 620px) {
    #hero {
