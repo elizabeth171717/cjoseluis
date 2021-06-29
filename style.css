@@ -507,7 +507,7 @@ footer p {
   color: white;
   text-align: center;
   text-transform: capitalize;
-  letter-spacing: 1rem;
+  letter-spacing: .25rem;
   margin-bottom: 0;
 }
 
