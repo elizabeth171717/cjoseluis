@@ -663,7 +663,7 @@ footer p {
  
     
   .hidden {
-       width: 100%;
+     
     flex-direction: column;
   }
   .hidden iframe {
