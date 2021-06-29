@@ -1,3 +1,11 @@
+// set date
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
+
+
+
+
+
 const workouts = document.querySelectorAll(".workout-box");
 
 workouts.forEach(function (workout) {
