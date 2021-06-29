@@ -499,7 +499,17 @@ font-weight: bold;
   
 }
 /*..........contact section ends...........*/
-
+footer {
+  background: black;
+  padding: 5rem 1rem;
+}
+footer p {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1rem;
+  margin-bottom: 0;
+}
 
 @media (max-width: 1020px) {
     
