@@ -660,17 +660,25 @@ footer p {
 }
 
 @media (max-width: 1200px) {
-    .workout-box {
-  width: 100%;
  
-}
     
   .hidden {
+       width: 100%;
     flex-direction: column;
   }
   .hidden iframe {
     margin: 20px 0;
   }
+    
+    
+    .container {
+  width: 100%;
+
+}
+.btn-sec {
+ width: 100%;
+}
+
 }
 
 
